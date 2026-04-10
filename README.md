@@ -1,63 +1,75 @@
-# Petronova Copilot 4x4
+# Petronova AI Ops Copilot
 
-Demo de producto para innovación en AESA / YPF con enfoque en operación industrial, supply chain, contratos y mantenimiento. El repo está preparado para subir a GitHub y desplegar el front en Cloudflare Pages y la API en Cloudflare Workers + D1.
+# Interactive Demo: https://petronova.lovable.app/
+Petronova AI Ops Copilot is a production-oriented multi-agent web platform designed for industrial innovation in the energy sector. It helps teams analyze supply chain risk, track contracts, monitor maintenance alerts, and centralize operational context in one intelligent interface.
 
-## Estructura
+Built to look and behave like a real enterprise product, the system combines a modern frontend, a Cloudflare Workers backend, structured data storage, and a scalable architecture ready for future RAG and ML integrations.
 
-- `apps/api`: Worker en TypeScript con D1, router de intención, agentes, riesgo y trazabilidad.
-- `apps/web`: Frontend en React + Vite con landing, agentes, chat, paneles y logs.
-- `services/ml-api`: Servicio opcional en FastAPI para sustituir el motor de riesgo por un modelo ML real más adelante.
+## Key Features
 
-## Arranque local
+- Multi-agent experience with role-based routing
+- Supply chain risk analysis
+- Contract and document context
+- Maintenance and operations alerts
+- Audit trail and query traceability
+- Modern executive dashboard UI
+- Cloudflare-ready deployment structure
+- ML-ready architecture for future scoring and prediction
+- Designed for real-world energy operations workflows
 
-### API
-```bash
-cd apps/api
-npx wrangler d1 execute aesa_copilot_db --local --file=./schema.sql
-npm install
-npm run dev
-```
+## Use Cases
 
-### Web
-```bash
-cd apps/web
-npm install
-npm run dev
-```
+- Supplier risk monitoring
+- Contract status review
+- Maintenance anomaly detection
+- Operational decision support
+- Innovation demos for industrial leadership
+- Internal copilots for energy companies
 
-## Cloudflare
+## Tech Stack
 
-### Worker
-En `apps/api/wrangler.toml` completá el `database_id` real de D1 y desplegá:
+### Frontend
+- React
+- Vite
+- TypeScript
+- HTML
+- CSS
 
-```bash
-npm --workspace apps/api run deploy
-```
+### Backend
+- Cloudflare Workers
+- TypeScript
+- D1 Database
+- REST APIs
 
-### Pages
-Desplegá `apps/web` en Cloudflare Pages. Para producción, configurá:
+### Data & Intelligence
+- Structured simulation data
+- Risk scoring engine
+- Intent routing
+- Multi-agent orchestration
+- ML-ready service layer
+- RAG-ready document context
 
-- `VITE_API_BASE_URL` si el Worker vive en otro dominio.
-- Si el frontend y el Worker comparten dominio, el frontend usa `/api/chat`.
+### Deployment & Infra
+- Cloudflare Pages
+- Cloudflare Workers
+- Cloudflare D1
+- GitHub
 
-## Agentes incluidos
+## Architecture
 
-- Supply
-- Maintenance
-- Contracts
-- General
-
-## Qué muestra la demo
-
-- landing de bienvenida,
-- selector visual de agentes,
-- chat con respuestas preprogramadas,
-- score de riesgo,
-- contratos,
-- documentos,
-- actividad / trazabilidad,
-- arquitectura Cloudflare-ready.
-
-## Servicio ML opcional
-
-`services/ml-api` incluye un ejemplo con FastAPI para cuando quieras reemplazar el motor de riesgo por un modelo real entrenado con joblib/sklearn.
+```text
+User
+  ↓
+Frontend (React + Vite)
+  ↓
+Cloudflare Worker API
+  ↓
+Intent Router
+  ↓
+Agent Layer
+  ├─ Supply Agent
+  ├─ Contracts Agent
+  ├─ Maintenance Agent
+  └─ General Agent
+  ↓
+D1 Database + Document Context + Risk Engine
