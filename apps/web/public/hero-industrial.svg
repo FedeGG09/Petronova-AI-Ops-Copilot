@@ -1,0 +1,41 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="88" y1="86" x2="1118" y2="708" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="160" y1="140" x2="1040" y2="624" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="blur" x="-50" y="-50" width="1300" height="860" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="36" fill="#07111F"/>
+  <circle cx="240" cy="160" r="120" fill="#0EA5E9" fill-opacity="0.14" filter="url(#blur)"/>
+  <circle cx="930" cy="160" r="150" fill="#22C55E" fill-opacity="0.10" filter="url(#blur)"/>
+  <circle cx="800" cy="560" r="180" fill="#6366F1" fill-opacity="0.12" filter="url(#blur)"/>
+  <rect x="60" y="60" width="1080" height="640" rx="30" fill="url(#g2)" stroke="url(#g1)" stroke-opacity="0.25"/>
+  <path d="M140 550C260 450 320 540 430 440C520 358 640 300 720 340C820 389 900 290 1060 190" stroke="url(#g1)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M180 494H1030" stroke="#94A3B8" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M180 530H1030" stroke="#94A3B8" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="160" y="164" width="240" height="176" rx="22" fill="#0F172A" fill-opacity="0.86" stroke="#38BDF8" stroke-opacity="0.26"/>
+  <rect x="430" y="120" width="280" height="220" rx="24" fill="#0F172A" fill-opacity="0.86" stroke="#818CF8" stroke-opacity="0.22"/>
+  <rect x="744" y="164" width="240" height="176" rx="22" fill="#0F172A" fill-opacity="0.86" stroke="#22C55E" stroke-opacity="0.24"/>
+  <rect x="220" y="220" width="120" height="48" rx="14" fill="#38BDF8" fill-opacity="0.16"/>
+  <rect x="496" y="186" width="150" height="52" rx="16" fill="#818CF8" fill-opacity="0.16"/>
+  <rect x="794" y="220" width="120" height="48" rx="14" fill="#22C55E" fill-opacity="0.16"/>
+  <circle cx="220" cy="390" r="7" fill="#38BDF8"/>
+  <circle cx="275" cy="390" r="7" fill="#38BDF8"/>
+  <circle cx="330" cy="390" r="7" fill="#38BDF8"/>
+  <circle cx="595" cy="390" r="7" fill="#818CF8"/>
+  <circle cx="650" cy="390" r="7" fill="#818CF8"/>
+  <circle cx="705" cy="390" r="7" fill="#818CF8"/>
+  <circle cx="910" cy="390" r="7" fill="#22C55E"/>
+  <circle cx="965" cy="390" r="7" fill="#22C55E"/>
+  <circle cx="1020" cy="390" r="7" fill="#22C55E"/>
+  <text x="170" y="610" fill="#E2E8F0" font-size="26" font-family="Inter, Arial, sans-serif" opacity="0.88">Multi-Agent Industrial Copilot</text>
+  <text x="170" y="646" fill="#94A3B8" font-size="18" font-family="Inter, Arial, sans-serif" opacity="0.88">Risk · Contracts · Maintenance · Cloudflare-ready</text>
+</svg>

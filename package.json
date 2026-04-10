@@ -1,0 +1,13 @@
+{
+  "name": "aesa-copilot-production",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "build:web": "npm --workspace apps/web run build",
+    "dev:api": "npm --workspace apps/api run dev",
+    "deploy:api": "npm --workspace apps/api run deploy"
+  }
+}

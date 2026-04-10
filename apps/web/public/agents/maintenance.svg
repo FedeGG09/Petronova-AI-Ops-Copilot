@@ -1,0 +1,15 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="28" fill="#06111D"/>
+  <circle cx="180" cy="120" r="90" fill="#22C55E" fill-opacity="0.15"/>
+  <circle cx="620" cy="320" r="110" fill="#0EA5E9" fill-opacity="0.12"/>
+  <rect x="90" y="140" width="260" height="190" rx="26" fill="#0F172A" stroke="#22C55E" stroke-opacity="0.25"/>
+  <circle cx="220" cy="235" r="56" stroke="#22C55E" stroke-width="10"/>
+  <circle cx="220" cy="235" r="18" fill="#22C55E" fill-opacity="0.3"/>
+  <path d="M470 160H680" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 220H630" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 280H700" stroke="#818CF8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="470" y="320" width="250" height="56" rx="16" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.18"/>
+  <text x="496" y="357" fill="#E2E8F0" font-size="20" font-family="Inter, Arial, sans-serif">Temp · Vibración · Severidad</text>
+  <text x="86" y="82" fill="#E2E8F0" font-size="30" font-family="Inter, Arial, sans-serif">Maintenance Copilot</text>
+  <text x="86" y="118" fill="#94A3B8" font-size="18" font-family="Inter, Arial, sans-serif">Activos · Anomalías · Intervención</text>
+</svg>

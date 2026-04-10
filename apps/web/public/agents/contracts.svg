@@ -1,0 +1,15 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="28" fill="#06111D"/>
+  <rect x="60" y="70" width="280" height="310" rx="24" fill="#0F172A" stroke="#A78BFA" stroke-opacity="0.28"/>
+  <rect x="90" y="112" width="220" height="18" rx="9" fill="#A78BFA" fill-opacity="0.22"/>
+  <rect x="90" y="152" width="180" height="14" rx="7" fill="#94A3B8" fill-opacity="0.18"/>
+  <rect x="90" y="182" width="210" height="14" rx="7" fill="#94A3B8" fill-opacity="0.18"/>
+  <rect x="90" y="212" width="150" height="14" rx="7" fill="#94A3B8" fill-opacity="0.18"/>
+  <path d="M400 120H680" stroke="#A78BFA" stroke-width="8" stroke-linecap="round"/>
+  <path d="M400 176H640" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M400 232H560" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="560" cy="338" r="70" fill="#818CF8" fill-opacity="0.16"/>
+  <path d="M528 338L553 364L596 312" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="392" y="82" fill="#E2E8F0" font-size="30" font-family="Inter, Arial, sans-serif">Contract Copilot</text>
+  <text x="392" y="118" fill="#94A3B8" font-size="18" font-family="Inter, Arial, sans-serif">Cláusulas · Vencimientos · Cumplimiento</text>
+</svg>
