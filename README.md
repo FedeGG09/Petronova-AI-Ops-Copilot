@@ -1,4 +1,4 @@
-# AESA Copilot 4x4
+# Petronova Copilot 4x4
 
 Demo de producto para innovación en AESA / YPF con enfoque en operación industrial, supply chain, contratos y mantenimiento. El repo está preparado para subir a GitHub y desplegar el front en Cloudflare Pages y la API en Cloudflare Workers + D1.
 
