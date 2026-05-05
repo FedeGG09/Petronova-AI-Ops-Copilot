@@ -18,6 +18,8 @@ Built to look and behave like a real enterprise product, the system combines a m
 - ML-ready architecture for future scoring and prediction
 - Designed for real-world energy operations workflows
 
+<img width="1857" height="809" alt="image" src="https://github.com/user-attachments/assets/c8256153-d3cf-4d8b-800a-8a263c88a101" />
+
 ## Use Cases
 
 - Supplier risk monitoring
