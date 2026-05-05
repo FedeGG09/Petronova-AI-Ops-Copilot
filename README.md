@@ -1,4 +1,5 @@
 # Petronova AI Ops Copilot
+<img width="1873" height="811" alt="image" src="https://github.com/user-attachments/assets/283bb1b5-937d-496a-a646-4e91841628c3" />
 
 # Interactive Demo: https://petronova.lovable.app/
 Petronova AI Ops Copilot is a production-oriented multi-agent web platform designed for industrial innovation in the energy sector. It helps teams analyze supply chain risk, track contracts, monitor maintenance alerts, and centralize operational context in one intelligent interface.
